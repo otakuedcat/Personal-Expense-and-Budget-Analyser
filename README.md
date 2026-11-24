@@ -1,5 +1,3 @@
-## BENNETT UNIVERSITY
-
 ## Computational Thinking and Programming
 
 Course Code: 2026CSAE100
@@ -219,6 +217,14 @@ The program does not print the percentage used; it only compares spent with 0.8 
 ## 7 Important Outputs / Screenshots
 
 The screenshots below were taken while running the program. They follow one session in which an income and an expense for August 2026 were added and then analysed.
+
+<div align="center">
+  <img src="img/Fig1.jpeg" width= "450" alt="Screenshot 1">
+  <img src="img/Fig2.jpeg" width= "450" alt="Screenshot 2">
+  <img src="img/Fig3.jpeg" width= "450" alt="Screenshot 3">
+  <img src="img/Fig4.jpeg" width= "450" alt="Screenshot 4">
+  <img src="img/Fig5.jpeg" width= "450" alt="Screenshot 5">
+</div>
 
 ## Screenshot 1
 
