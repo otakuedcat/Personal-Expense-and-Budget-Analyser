@@ -218,18 +218,12 @@ The program does not print the percentage used; it only compares spent with 0.8 
 
 The screenshots below were taken while running the program. They follow one session in which an income and an expense for August 2026 were added and then analysed.
 
-<div align="center">
-  <img src="img/Fig1.jpeg" width= "450" alt="Screenshot 1">
-  <img src="img/Fig2.jpeg" width= "450" alt="Screenshot 2">
-  <img src="img/Fig3.jpeg" width= "450" alt="Screenshot 3">
-  <img src="img/Fig4.jpeg" width= "450" alt="Screenshot 4">
-  <img src="img/Fig5.jpeg" width= "450" alt="Screenshot 5">
-</div>
-
 ## Screenshot 1
 
 *Figure 2 Adding an income record (option 1)*
-![Screenshot1](img/Fig1.jpeg)
+<div align="center">
+  <img src="img/Fig1.jpeg" width="300" alt="Screenshot 1">
+</div>
 Option 1 asks for a date in YYYY-MM-DD form, a category and an amount. The record (Salary, 41000) is
 
 accepted and “Record added!” is shown.
@@ -237,14 +231,18 @@ accepted and “Record added!” is shown.
 ## Screenshot 2
 
 *Figure 3 Adding an expense record (option 2)*
-![Screenshot2](img/Fig2.jpeg)
+<div align="center">
+  <img src="img/Fig2.jpeg" width="300" alt="Screenshot 2">
+</div>
 Option 2 uses the same prompts. The expense (Food, 13000 on 2026-08-15) is stored with type Expense.
 
 
 ## Screenshot 3
 
 *Figure 4 Monthly summary for 2026-08 (option 3)*
-![Screenshot3](img/Fig3.jpeg)
+<div align="center">
+  <img src="img/Fig3.jpeg" width="300" alt="Screenshot 3">
+</div>
 The program adds the income and the expense for the month and prints the balance: 41000.0 − 13000.0
 
 = 28000.0.
@@ -252,7 +250,9 @@ The program adds the income and the expense for the month and prints the balance
 ## Screenshot 4
 
 *Figure 5 Spending analysis for 2026-08 (option 4)*
-![Screenshot4](img/Fig4.jpeg)
+<div align="center">
+  <img src="img/Fig4.jpeg" width="300" alt="Screenshot 4">
+</div>
 Total spending, the spending per category and the highest-spending category are printed. Here Food is
 
 the only category, so it is also the highest.
@@ -261,7 +261,9 @@ the only category, so it is also the highest.
 ## Screenshot 5
 
 *Figure 6 Budget comparison for 2026-08 (option 5)*
-![Screenshot5](img/Fig5.jpeg)
+<div align="center">
+  <img src="img/Fig5.jpeg" width="300" alt="Screenshot 5">
+</div>
 With a budget of 50000 and 13000 spent, the program reports “You are within budget.”
 
 ## 8 Testing
