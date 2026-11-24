@@ -120,7 +120,7 @@ The program loads any saved records at start-up and then stays in a menu loop. E
 ## Flowchart / Design
 
 The flowchart below shows the overall flow of the program, from loading the data to the five menu options and the exit step.
-
+![Flowchart](img/Flowchart.png)
 *Figure 1 Program flowchart (as supplied with the project)*
 
 Note: the flowchart is a general design. Where it differs in detail from the final program, the source code is the reference: the file is named expense.csv (the flowchart says expenses.csv); records hold date, type, category and amount (no separate source or description field); and the budget check gives one alert from 80% of the budget upwards. Options 3, 4 and 5 read the month as typed, without the separate format check drawn in the flowchart.
@@ -223,7 +223,7 @@ The screenshots below were taken while running the program. They follow one sess
 ## Screenshot 1
 
 *Figure 2 Adding an income record (option 1)*
-
+![Screenshot1](img/Fig1.jpeg)
 Option 1 asks for a date in YYYY-MM-DD form, a category and an amount. The record (Salary, 41000) is
 
 accepted and “Record added!” is shown.
@@ -231,14 +231,14 @@ accepted and “Record added!” is shown.
 ## Screenshot 2
 
 *Figure 3 Adding an expense record (option 2)*
-
+![Screenshot2](img/Fig2.jpeg)
 Option 2 uses the same prompts. The expense (Food, 13000 on 2026-08-15) is stored with type Expense.
 
 
 ## Screenshot 3
 
 *Figure 4 Monthly summary for 2026-08 (option 3)*
-
+![Screenshot3](img/Fig3.jpeg)
 The program adds the income and the expense for the month and prints the balance: 41000.0 − 13000.0
 
 = 28000.0.
@@ -246,7 +246,7 @@ The program adds the income and the expense for the month and prints the balance
 ## Screenshot 4
 
 *Figure 5 Spending analysis for 2026-08 (option 4)*
-
+![Screenshot4](img/Fig4.jpeg)
 Total spending, the spending per category and the highest-spending category are printed. Here Food is
 
 the only category, so it is also the highest.
@@ -255,7 +255,7 @@ the only category, so it is also the highest.
 ## Screenshot 5
 
 *Figure 6 Budget comparison for 2026-08 (option 5)*
-
+![Screenshot5](img/Fig5.jpeg)
 With a budget of 50000 and 13000 spent, the program reports “You are within budget.”
 
 ## 8 Testing
